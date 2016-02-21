@@ -110,7 +110,7 @@ The next line will send the response which is a string. `JSON.stringify()` is a 
 server.listen(3000)
 ```
 
-You can run it with `$ node server`, then open your browser at <http://localhost:3000/users> and notice the output in the browser:
+You can run it with `node server`, leave the terminal window (don't expect to see unicorns or anything like that!) to open your browser at <http://localhost:3000/users>. Now, notice the output in the browser:
 
 ```
 Your request to /users:["56b64e2c765eb2fdb6238f7b","56b64e2e765eb2fdb6238f7c","56b64e2f765eb2fdb6238f7d"]
