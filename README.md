@@ -127,6 +127,19 @@ We observed that accessing request data such as `url` and `method` works. We sen
 
 In just a few lines of code, we were able to create an HTTP server. It's not very comprehensive, but that's the beauty of Node—you can start small and then add more functionality as you go along.
 
+Note: This minimal HTTP server will handle not just GET requests, but any requests like POST, PUT, PATCH, DELETE, OPTIONS. You can try submitting them yourself with CURL. For example, to send a POST request with CURL, the command is
+
+```
+curl -X POST localhost:3000
+```
+ 
+The result will be:
+ 
+```
+URL:  /
+METHOD:  POST
+```
+
 ## Resources
 
 1. [Anatomy of an HTTP Transaction](https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/)
